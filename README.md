@@ -1,5 +1,7 @@
 # LocalShellExtParse #
-LocalShellExtParse is an "offline" forensics script that will generating a “first loaded” timeline for Shell Extensions and identifying Shell Extensions that are only installed for the current user. This is a useful way to identify malware that is using a Shell Extension as a persistence mechanism. 
+LocalShellExtParse is an "offline" forensics script that will generating a “first loaded” timeline for Shell Extensions and identifying Shell Extensions that are only installed for the current user. This is a useful way to identify malware that is using a Shell Extension as a persistence mechanism.
+
+More information can be found in this blog post: http://herrcore.blogspot.ca/2015/06/malware-persistence-with.html
 
 _NOTE:_ This probably would have been better as a RegRipper plugin but Python is the future, and we need to collect some extra information that RegRipper doesn’t currently parse.
 
