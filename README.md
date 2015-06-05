@@ -1,7 +1,7 @@
 # LocalShellExtParse #
 LocalShellExtParse is an "offline" forensics script that will generating a “first loaded” timeline for Shell Extensions and identifying Shell Extensions that are only installed for the current user. This is a useful way to identify malware that is using a Shell Extension as a persistence mechanism. 
 
-_NOTE:_ This probably would have been better as a RegRipper plugin but Python the future, and we need to collect some extra information that RegRipper doesn’t currently parse.
+_NOTE:_ This probably would have been better as a RegRipper plugin but Python is the future, and we need to collect some extra information that RegRipper doesn’t currently parse.
 
 ## Data Collection ##
 The script parses entries from the *NTUSER.DAT* and *UsrClass.DAT* files. To use the tool you will first need to collect the files from the host that you want to analyze. I prefer FTK Imager (http://accessdata.com/product-download) but any tool that allows you to carve system files will work.
