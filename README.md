@@ -5,6 +5,13 @@ More information can be found in this blog post: http://herrcore.blogspot.com/20
 
 _NOTE:_ This probably would have been better as a RegRipper plugin but Python is the future, and we need to collect some extra information that RegRipper doesn’t currently parse.
 
+## Dependencies ##
+The script requires you to have installed Hivex with the the Python bindings (https://github.com/libguestfs/hivex). Hivex is part of the libguestfs suite of tools. 
+
+Installation for Linux can be found here: http://libguestfs.org/
+
+If you are using OSX you can use the brew tap here: https://github.com/anarchivist/homebrew-forensics
+
 ## Data Collection ##
 The script parses entries from the *NTUSER.DAT* and *UsrClass.DAT* files. To use the tool you will first need to collect the files from the host that you want to analyze. I prefer FTK Imager (http://accessdata.com/product-download) but any tool that allows you to carve system files will work.
 
