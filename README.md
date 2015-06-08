@@ -3,7 +3,7 @@ LocalShellExtParse is an "offline" forensics script that will generating a “fi
 
 More information can be found in this blog post: http://herrcore.blogspot.com/2015/06/malware-persistence-with.html
 
-_NOTE:_ This probably would have been better as a RegRipper plugin but Python is the future, and we need to collect some extra information that RegRipper doesn’t currently parse.
+**NOTE**: Regripper has been updated to detect this persistence mechanism. Full details are here: http://windowsir.blogspot.ca/2015/06/links.html.
 
 ## Dependencies ##
 The script requires you to have installed Hivex with the the Python bindings (https://github.com/libguestfs/hivex). Hivex is part of the libguestfs suite of tools. 
